@@ -14,6 +14,13 @@ library(here)
 Hi Taylor your scrunchie is really cute :)
 
 You have a cool scrunchie too. 
+```{r}
+mean_value <- mean(cars$dist)
+
+
+```
+
+
 
 ```{r Task 1}
 plot(cars) 
