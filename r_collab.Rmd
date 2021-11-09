@@ -14,15 +14,8 @@ library(here)
 Hi Taylor your scrunchie is really cute :)
 
 You have a cool scrunchie too. 
-```{r}
-mean_value <- mean(cars$dist)
-
-
-```
-
-
-
-```{r Task 1} %>% d
+```{r Task 1} 
+cars2 <- cars %>%
 plot(cars) 
 
 ggplot(data = cars, aes(x = speed, y = dist)) +
