@@ -22,7 +22,7 @@ mean_value <- mean(cars$dist)
 
 
 
-```{r Task 1} %>%
+```{r Task 1} %>% d
 plot(cars) 
 
 ggplot(data = cars, aes(x = speed, y = dist)) +
