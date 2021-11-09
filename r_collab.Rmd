@@ -18,7 +18,7 @@ You have a cool scrunchie too.
 plot(cars) 
 
 ggplot(data = cars, aes(x = "speed", y = "dist")) +
-  geom_point()
+  geom_point(color = "red")
 
 ```
 
